@@ -18,7 +18,7 @@ variable "cluster_name" {
 variable "machine_type" {
   description = "The machine type for the cluster nodes."
   type        = string
-  default     = "e2-standard-2"
+  default     = "n1-standard-1"
 }
 
 variable "network" {
